@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pesquisalagoinha-fundation.github.io/lagoinha/sitemap.xml

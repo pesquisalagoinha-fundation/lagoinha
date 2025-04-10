@@ -4455,6 +4455,68 @@ margin: 0 auto; display: block; background-color:rgb(64, 147, 241);
                         </p>
                         </p>
                     </div>
+
+
+                <p class="subtitulo" style="text-align: center; color: rgb(64, 147, 241);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+            'Lucida Sans', Arial, sans-serif; font-size: 1.2em;" onclick="curiosidade10()">
+                      > 10. A Centenária de Lagoinha 
+                <div id="curiosidade10" style="display: none;">
+          
+                      <h3 style="text-align: center; color:
+            rgba(26, 130, 248, 0.925); font-family: 'Trebuchet MS', 
+           'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+            sans-serif; font-size: 1.5em; padding: 10px;">   
+                          10. A Centenária de Lagoinha </h3>
+               
+                      <div id="c3">
+                          <p style="text-align: center; font-family: 'Trebuchet MS', 
+           'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, 
+            s3ans-serif; padding: 10px;"> 10.1 A seguir, encontra-se o registro original de óbito 
+            de Dona Rita Firme, a mais velha cidadã lagoinhense, nascida em 1838 e vindo a falecer no 
+        século seguinte, em 1958.  </p>
+          
+                          <img src="424d2793-385d-4248-b7cc-8001cfaf5220.jpg" alt="Gripe01" 
+                          style="width: 300px; border-radius: 22px;
+          margin: 0 auto; display: block;">
+
+<br><br> 
+
+<h3 id="saiba01" style="text-align: center; color:
+rgba(26, 130, 248, 0.925); font-family: 'Trebuchet MS', 
+'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+sans-serif; font-size: 1.5em; padding: 10px;" onclick="centenaria()">Saber mais</h3>
+
+
+<div id="centenaria" style="display: none; 
+text-align: justify; border-radius: 25px; width: 400px;
+margin: 0 auto;">
+
+    <p style="background-color: rgb(224, 223, 223); 
+padding: 7px; font-family: 'Trebuchet MS', 
+'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+text-align: center;">
+  Aqui se encontra o registro de quem pode ser a pessoa que mais viveu em nossa cidade. 
+  Trata-se de Dona Rita Firme, que, segundo o registro de óbito original da época,
+ fora nascida no ano 
+  da Graça de 1838, e viveu até o ano 1958. Quantas histórias e memórias, não é mesmo?
+  O registro
+ foi preenchido à mão pelo escrivão da época - o saudoso José Alcides Ferreira. <br><br>
+ A fins de curiosidade, não se sabe se Dona Rita tinha algum tipo de parentesco com o
+   primeiro tabelião do primeiro cartório de Lagoinha, o Sr. João Borges da Rocha Firme, que,
+    apesar do sobrenome, não há uma ligação clara. Sabemos que João Firme 
+    era filho de Samuel Borges da Rocha Firme e de Dona
+      Maria Firme, e que nasceu em 1826. João faleceu aos 80 anos e Dona Rita aos 120.
+       Dona Rita, possivelmente ex-escravizada alforriada, apesar dos horrores que sofreu
+        nesta época, conseguiu lutar e viver  
+        tão duradouramente.
+        <br><br>
+  (João Cezar Historiador e Pesquisador Regionalista)
+  <br>
+    </p>
+</div>
+
+                  
                 </div>
 
             </div>
@@ -7078,6 +7140,24 @@ rgb(224, 221, 221); padding: 7px; font-family: 'Trebuchet MS', 'Lucida Sans Unic
             }
         }
 
+     function curiosidade10 () {
+            const menu = document.getElementById('curiosidade10');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+
+        function centenaria() {
+            const menu = document.getElementById('centenaria');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+      
         function geraldo() {
             const menu = document.getElementById('geraldo');
             if (menu.style.display === 'block') {
